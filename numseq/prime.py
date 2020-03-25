@@ -20,4 +20,4 @@ def is_prime(m):
         return False
 
 
-# print(primes(70900))
+print(primes(70900))
