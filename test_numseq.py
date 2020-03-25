@@ -45,7 +45,7 @@ def numseq_importer(module_name):
     try:
         result = importlib.import_module(to_import)
     except ImportError:
-        result = 'Unable to import module: ' + to_importP
+        result = 'Unable to import module: ' + to_import
     # could be a module, could be a string
     return result
 
