@@ -60,10 +60,10 @@ class TestNumseq(unittest.TestCase):
         for n, f in enumerate(fibs):
             self.assertEqual(fib.fib(n), fibs[n], 'The Fibonacci terms are incorrect')
 
-    # def test_fib_performance(self):
-    #     """Test speed performance of fibonacci algorithm"""
-    #     # A recursive solution will not perform well here.
-    #     pass
+    def test_fib_performance(self):
+        """Test speed performance of fibonacci algorithm"""
+        # A recursive solution will not perform well here.
+        pass
 
     def test_square(self):
         """Test importability and correctness of square terms"""
